@@ -1,0 +1,80 @@
+# --- Python bytecode / C extensions ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.python-version
+
+# --- Environment & secrets (keep out of git) ---
+.env
+.env.*
+*.env
+
+# --- Packaging / build artifacts ---
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# --- Caches / test / coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.tox/
+.nox/
+.mypy_cache/
+.pytype/
+.pyre/
+.dmypy.json
+.hypothesis/
+
+# --- Jupyter ---
+.ipynb_checkpoints
+.ipython/
+profile_default/
+
+# --- VS Code (ignore most, keep common project files) ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# --- JetBrains / other IDEs ---
+.idea/
+*.iml
+.ropeproject/
+.spyproject/
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.temp
+
+# --- PyInstaller ---
+*.spec
+
+# --- Docs (uncomment if using Sphinx/MkDocs) ---
+# docs/_build/
+# site/
+
+# --- Data files (optional; uncomment if you don't want to commit raw data) ---
+# data/
+# *.csv
+# *.tsv
+# *.parquet
