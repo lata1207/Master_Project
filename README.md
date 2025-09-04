@@ -13,7 +13,7 @@ The project evaluates **non-contextual baselines** (Twitter-RoBERTa, DistilBERT-
 - Error analysis for subtle or neutral sentiments
 
 ## Dataset
-- [DailyDialog](https://frankdarkluo/dailydialog)
+- https://huggingface.co/datasets/frankdarkluo/DailyDialog
 
 ## Requirements
 - Python 3.8+
