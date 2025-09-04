@@ -28,5 +28,5 @@ The project evaluates **non-contextual baselines** (Twitter-RoBERTa, DistilBERT-
 3. Run preprocessing, training, and evaluation scripts.
 
 ## Author
-Your Name
+Snehlata
 # Master_Project
